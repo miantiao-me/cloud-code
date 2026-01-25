@@ -1,0 +1,13 @@
+.git
+.gitignore
+.vscode
+.wrangler
+
+node_modules
+
+*.ts
+*.md
+*.jsonc
+*.local
+*.example
+*.log
