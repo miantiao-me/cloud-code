@@ -15,7 +15,7 @@
       "enabled": true,
     },
   },
-	"placement": {
+  "placement": {
     "region": "aws:us-west-1",
   },
   "containers": [
@@ -23,7 +23,11 @@
       "name": "cloud-code-container",
       "class_name": "AgentContainer",
       "image": "./Dockerfile",
-      "instance_type": "standard-1",
+      "instance_type": {
+        "vcpu": 1,
+        "memory_mib": 2048,
+        "disk_mb": 8192,
+      },
       "max_instances": 1,
       "scheduling_policy": "regional",
     },
