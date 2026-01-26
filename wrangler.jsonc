@@ -25,7 +25,7 @@
       "image": "./Dockerfile",
       "instance_type": {
         "vcpu": 1,
-        "memory_mib": 2048,
+        "memory_mib": 4096,
         "disk_mb": 8192,
       },
       "max_instances": 1,
