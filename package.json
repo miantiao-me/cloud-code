@@ -14,10 +14,10 @@
   },
   "devDependencies": {
     "@cloudflare/containers": "^0.1.0",
-    "oxfmt": "^0.26.0",
-    "oxlint": "^1.41.0",
+    "oxfmt": "^0.27.0",
+    "oxlint": "^1.42.0",
     "typescript": "^5.9.3",
-    "wrangler": "^4.60.0"
+    "wrangler": "^4.61.0"
   },
-  "packageManager": "pnpm@10.28.1"
+  "packageManager": "pnpm@10.28.2"
 }
